@@ -1,7 +1,7 @@
 #!/bin/bash
 cd ..
 
-echo 'Installing Python submodules into session venv...'
+echo 'Installing Python submodules...'
 pip install -e ./pycomlink --no-deps
 pip install -e ./PyNNcml --no-deps
 
