@@ -38,7 +38,6 @@ dependencies:
   - pyproj
   - tqdm
   - pykrige
-  - tensorflow
   - bottleneck
   - future
   - sparse
