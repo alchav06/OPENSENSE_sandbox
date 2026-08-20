@@ -1,0 +1,54 @@
+name: opensense_sandbox
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10.6 
+  # for adding submodule dirs to conda env
+  - conda-build
+  # Some basic R packages
+  - r-base=4.1.3
+  - r-essentials  
+  - r-ggplot2
+  - r-ncdf4
+  - r-data.table
+  - r-geosphere
+  - r-sf
+  - r-s2
+  - r-TeachingDemos
+  # Additional R packages for RAINLINK
+  - r-gstat
+  - r-hexbin
+  - r-sfheaders
+  - r-abind
+  - r-stars
+  # Some basic Python packages
+  - nbgitpuller
+  - numpy
+  - matplotlib    
+  - pandas
+  - xarray
+  - dask
+  - netcdf4
+  # Additional dependencies for pycomlink
+  - scipy
+  - numba
+  - h5py
+  - shapely
+  - pyproj
+  - tqdm
+  - pykrige
+  - tensorflow
+  - bottleneck
+  - future
+  - sparse
+  # Additional dependencies for PyNNcml
+  - cpuonly
+  - pytorch
+  # Additional dependencies for cml_data_explorer
+  - panel
+  - holoviews
+  - hvplot
+  - datashader
+  # Additional dependency to write to NetCDF to zarr
+  - zarr
