@@ -8,7 +8,8 @@ dependencies:
   - conda-build
   # Some basic R packages
   - r-base=4.1.3
-  - r-essentials  
+  - r-essentials
+  - r-irkernel  
   - r-ggplot2
   - r-ncdf4
   - r-data.table
